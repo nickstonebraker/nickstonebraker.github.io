@@ -9,9 +9,21 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
+            body,html {
+                height: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+            }
+            .container{
+                  height: 100%;
+    display: flex;
+    flex-flow: column;
+            }
+            .row{
+                  flex-grow: 1;
+            }
+            footer{
+              align-self: center;
             }
         </style>
     	<!-- Bootstrap CSS -->
